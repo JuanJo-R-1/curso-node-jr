@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev:2": "nodemon routing.js",
+    "dev:3": "node --watch express.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}

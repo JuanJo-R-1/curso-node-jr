@@ -22,10 +22,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node routing.js",
+    "dev:2": "nodemon routing.js"
   },
   "dependencies": {
-    "picocolors": "^1.1.1",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
     "standard": "^17.1.2"
   }
 }
