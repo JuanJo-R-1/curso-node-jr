@@ -23,9 +23,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node routing.js",
-    "dev:2": "nodemon routing.js"
+    "dev:2": "nodemon routing.js",
+    "dev:4": "node app.js"
   },
   "dependencies": {
+    "express": "5.2.1",
     "picocolors": "^1.1.1"
   },
   "devDependencies": {

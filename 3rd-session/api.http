@@ -1,0 +1,24 @@
+GET http://localhost:3004/movies
+
+###
+GET http://localhost:3004/movies/5ad1a235-0d9c-410a-b32b-220d91689a08
+
+###
+GET http://localhost:3004/movies?genre=terror
+
+##
+POST http://localhost:3004/movies
+
+Content-Type: applic  ation/json
+{
+  "title": "Interstellar",
+   "year": 2014,
+   "director": "Christopher Nolan",
+   "duration": 169,
+   "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
+   "genre": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ]
+}

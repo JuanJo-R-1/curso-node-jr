@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev:4": "node app.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}
