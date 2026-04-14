@@ -3,6 +3,7 @@
     "dev:4": "node app.js"
   },
   "dependencies": {
-    "express": "5.2.1"
+    "express": "5.2.1",
+    "zod": "4.3.6"
   }
 }
