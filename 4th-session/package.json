@@ -1,13 +1,15 @@
 {
-  "name": "3rd-session",
+  "name": "4th-session",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "scripts": {
-    "dev:4": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"Error:No test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "2.8.6",
